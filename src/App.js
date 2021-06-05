@@ -27,6 +27,7 @@ const initial = [
     id: 0,
   },
 ];
+console.log("test");
 function App() {
   const [expenses, setExpenses] = useState(initial);
   const addExpense = (data) => {
