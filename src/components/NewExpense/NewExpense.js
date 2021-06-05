@@ -4,7 +4,6 @@ import "./ExpenseForm.css";
 import ExpenseForm from "./ExpenseForm";
 
 function NewExpense(props) {
-  console.log(props.items);
   const getExpenseData = (data) => {
     const newExpense = { ...data, id: props.items.length };
     props.onSaveExpenseData1(newExpense);
