@@ -5,6 +5,7 @@ function ExpenseForm(props) {
   const [inputTitle, setInputTitle] = useState("");
   const [inputAmount, setInputAmount] = useState("");
   const [inputDate, setInputDate] = useState("");
+  const [open, setOpen] = useState(false);
   const titleInputHandler = (e) => {
     setInputTitle(e.target.value);
   };
@@ -18,7 +19,7 @@ function ExpenseForm(props) {
     e.preventDefault();
     const userInput = {
       title: inputTitle,
-      amount: inputAmount,
+      amount: +inputAmount,
       date: new Date(inputDate),
     };
     setInputTitle("");
@@ -26,6 +27,7 @@ function ExpenseForm(props) {
     setInputDate("");
     props.onSaveExpenseData(userInput);
   };
+
   return (
     <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
@@ -55,6 +57,7 @@ function ExpenseForm(props) {
         </div>
       </div>
       <div className="new-expense__actions">
+        <button onClick={props.close}>Cancel</button>
         <button type="submit">Add Expense</button>
       </div>
     </form>
