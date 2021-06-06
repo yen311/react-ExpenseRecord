@@ -13,4 +13,7 @@ If successful, you will see the following image.
 
 <img width="911" alt="Screen Shot 2021-06-06 at 9 49 46 pm" src="https://user-images.githubusercontent.com/62017108/120923294-1ffd5680-c711-11eb-9984-fba78babc691.png">
 
+This is a really simple expense record system built by React.
+
+Feel free to play around it and enjoy!
 
