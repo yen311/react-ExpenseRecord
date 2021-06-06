@@ -6,7 +6,8 @@ To excute the program, you will first need to download Node.js from https://node
 
 Run 
 
-### `npx create-react-app xxx` (xxx can be whatever you want. It will be your folder name.)
+### `npx create-react-app xxx` 
+(xxx can be whatever you want. It will be your folder name.)
 
 In the project directory, you can run:
 
