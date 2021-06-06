@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To excute the program, you will first need to download Node.js from https://nodejs.org/en/
 
+Run 
+
+### `npx create-react-app xxx` (xxx can be whatever you want. It will be your folder name.)
+
 In the project directory, you can run:
 
 ### `npm start`
